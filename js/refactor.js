@@ -72,7 +72,7 @@ function randCC (){
 	html += '<div style="background-color:' + rgbColor + '"></div>';
 }
 var i = 0;
-while (i++ < 10)
+while (i++ < 1000)
 	randCC();
 
 document.write(html);
