@@ -69,6 +69,7 @@ function randCC (){
 	green = Math.floor(Math.random() * 256 );
 	blue = Math.floor(Math.random() * 256 );
 	rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+	console.log(rgbColor);
 	html += '<div style="background-color:' + rgbColor + '"></div>';
 }
 var i = 0;
